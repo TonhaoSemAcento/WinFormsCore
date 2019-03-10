@@ -53,6 +53,7 @@
             this.lblExit.TabIndex = 1;
             this.lblExit.Text = "&Exit";
             this.lblExit.UseVisualStyleBackColor = true;
+            this.lblExit.Click += new System.EventHandler(this.LblExit_Click);
             // 
             // MainForm
             // 
